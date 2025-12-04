@@ -1,0 +1,27 @@
+# Dependências
+node_modules
+.pnpm-store
+
+# Build e Dist
+dist
+build
+
+# Variáveis de Ambiente (SEGURANÇA)
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Turborepo (Cache)
+.turbo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes (caso tenha mapeado localmente)
+postgres_data
